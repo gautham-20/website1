@@ -1,69 +1,210 @@
 body {
     background-image: url(bg_image_1.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
-}
-
-#header {
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    height: 40px;
-    border-radius: 5px;
-
-}
-
-#header a {
-    padding-right: 15px;
-    float: right;
-    font-size: 30px;
-    color: rgb(131, 5, 5);
-    text-decoration: none;
-    list-style-type: none;
-}
-
-#form1 {
-    background-color: rgba(153, 211, 198, 0.555);
-    align-items: center;
-    width: 400px;
-    height: 250px;
-    margin-left: 700px;
-    margin-top: 270px;
-    border-radius: 10px;
-}
-
-#form1 input {
-    align-items: center;
-    border-color: black;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-left: 40px;
-    height: 10%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-transform: lowercase;
 }
 
-#form1 h2 {
-    text-align: center;
-    color:aliceblue;
+.home1{
+    background-color: #00000093;
+    width: auto;
+    height: 860px;
+    margin-top: 100px;
+    color: white;
 }
 
-#form1 button {
-    border-style: solid;
-    align-items: center;
-    color: green(255, 255, 255);
+.home1 h1 {
+    color: rgb(255, 255, 255);
+}
+
+.home1 p {
+    color: white;
+    width: 500px;
+    height: 250px;
+    text-align: justify;
+}
+
+#img1 {
+    width: 500px;
+    height: 450px;
+    padding-left: 550px;
+}
+
+.home1 a button {
+    float: right;
+    margin-right: 200px;
+    text-decoration: none;
+    background-color: #00000000;
+    color: white;
+    border-color: white;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+
+.home1 a button:hover {
     background-color: white;
-    font-size: 20px;
-    width: 70px;
-    height: 30px;
-    border-radius: 5px;
+    color: black;
 }
 
+.service1{
+    display: flex;
+    padding-top: 200px;
+}
 
+.service1 h1{
+    color: white;
+}
 
-#header a:hover {
-    color: blue;
+#para1{
+    color:white;
+    width: 500px;
+    height: 550px;
+    border-color: white;
+    background-color: #000000;
+    border:3px;
+    border-radius: 3px;
+    text-align: justify;
+    padding: 5px 15px 5px 15px;
+}
+
+#para2{
+    color:white;
+    width: 500px;
+    height: 550px;
+    border-color: white;
+    background-color: #ca9393;
+    border:3px;
+    border-radius: 3px;
+    text-align: justify;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+#para3{
+    color:white;
+    width: 500px;
+    height: 550px;
+    border-color: white;
+    background-color: #5481d5;
+    border:3px;
+    border-radius: 3px;
+    text-align: justify;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.about{
+    background-color: #00000093;
+    width: auto;
+    height: 860px;
+    margin-top: 100px;
+    color: white;
+}
+
+.about h1{
+    padding-top:150px;
+}
+.about p{
+    text-align: justify;
+    padding: 30px 30px 30px 30px;
+}
+#login {
+    width: auto;
+    height: 860px;
+}
+
+.nav1 {
+    /* ffffff61 */
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: fixed;
+    width: 1800px;
+    top: 7px;
+    border-radius: 5px
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nl {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nl a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nl a:hover {
+    color: #ff0000;
+}
+
+.logdiv {
+    width: 400px;
+    height: 350px;
+    margin-left: 750px;
+    margin-top: 300px;
+    border-radius: 20px;
+    background-color: rgba(24, 21, 21, 0.697);
+}
+
+.logdiv input {
+    border-radius: 5px;
+    margin: 10px 0px 20px 60px;
+    justify-content: center;
+    height: 25px;
+    text-align: center;
+    width: 250px;
+}
+
+.logdiv button {
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 150px;
+    border-color: white;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+}
+
+.logdiv button:hover {
+    background-color: rgb(255, 255, 255);
+    color: green;
+    border-color: green;
+}
+
+.logdiv h2 {
+    text-align: center;
+    color: white;
+}
+
+.logdiv p {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.logdiv a {
+    color: #1de897b6;
+    text-decoration: none;
+}
+
+.logdiv a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
