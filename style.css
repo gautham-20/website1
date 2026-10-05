@@ -8,7 +8,7 @@ body {
     display: block;
 }
 
-.home1{
+.home1 {
     background-color: #00000093;
     width: auto;
     height: 860px;
@@ -49,54 +49,54 @@ body {
     color: black;
 }
 
-.service1{
+.service1 {
     display: flex;
     padding-top: 200px;
 }
 
-.service1 h1{
+.service1 h1 {
     color: white;
 }
 
-#para1{
-    color:white;
+#para1 {
+    color: white;
     width: 500px;
     height: 550px;
     border-color: white;
     background-color: #000000;
-    border:3px;
+    border: 3px;
     border-radius: 3px;
     text-align: justify;
     padding: 5px 15px 5px 15px;
 }
 
-#para2{
-    color:white;
+#para2 {
+    color: white;
     width: 500px;
     height: 550px;
     border-color: white;
     background-color: #ca9393;
-    border:3px;
+    border: 3px;
     border-radius: 3px;
     text-align: justify;
     margin-left: 10px;
     padding: 5px 15px 5px 15px;
 }
 
-#para3{
-    color:white;
+#para3 {
+    color: white;
     width: 500px;
     height: 550px;
     border-color: white;
     background-color: #5481d5;
-    border:3px;
+    border: 3px;
     border-radius: 3px;
     text-align: justify;
     margin-left: 10px;
     padding: 5px 15px 5px 15px;
 }
 
-.about{
+.about {
     background-color: #00000093;
     width: auto;
     height: 860px;
@@ -104,13 +104,47 @@ body {
     color: white;
 }
 
-.about h1{
-    padding-top:150px;
+.about h1 {
+    padding-top: 150px;
 }
-.about p{
+
+.about p {
     text-align: justify;
     padding: 30px 30px 30px 30px;
 }
+
+.contact{
+    padding-top: 100px;
+    color:white;
+}
+
+form{
+    border-left: 2px solid white;
+    margin-left:100px;
+    padding-left: 75px;
+}
+
+form input{
+    width:20%;
+    height:35px;
+    margin-top: 30px;
+    border-style: double;
+    border-color:green;
+    border-radius: 3px;
+
+}
+
+#sub{
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    width: 90px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+}
+
 #login {
     width: auto;
     height: 860px;
@@ -207,4 +241,14 @@ body {
 .logdiv a:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.foot{
+    background-color: rgba(33, 36, 33, 0.729);
+    margin-top: 400px;
+    padding-top:40px;
+    width: auto;
+    height:50px;
+    text-align: center;
+    color:white;
 }
