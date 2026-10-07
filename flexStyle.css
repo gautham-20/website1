@@ -47,10 +47,43 @@ button:hover {
   font-size: 1rem;
 }
 
-.container p{
+.container p {
   background-color: black;
   color: white;
   border-radius: 6px;
-  padding:3px;
-  font-size:15px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.container p:hover {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+@media screen and (max-width:720px){
+  body{
+    background-color: red;
+  }
+}
+
+@media screen and (max-width:412px){
+  body{
+    background-color: green;
+  }
+
+  * {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40;
+  font-style: normal;
+  text-decoration: underline;
+  font-variation-settings: "GRAD" 0;
+}
+
+
+
+  
 }
